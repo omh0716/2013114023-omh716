@@ -9,7 +9,7 @@
 import root_finding
 
 print dir(root_finding)
-
+help(root_finding)
 
 def func(x):
     """
