@@ -1,0 +1,473 @@
+From 9576c1359e0e176c537c590e4340ceefdfc03433 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=EC=98=A4=EB=AA=85=ED=99=98?= <omh0716@naver.com>
+Date: Tue, 27 Sep 2016 13:46:32 +0900
+Subject: [PATCH] start added.
+
+---
+ .idea/ECA.iml       |  12 ++
+ .idea/misc.xml      |  14 ++
+ .idea/modules.xml   |   8 ++
+ .idea/workspace.xml | 392 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 426 insertions(+)
+ create mode 100644 .idea/ECA.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/workspace.xml
+
+diff --git a/.idea/ECA.iml b/.idea/ECA.iml
+new file mode 100644
+index 0000000..6f63a63
+--- /dev/null
++++ b/.idea/ECA.iml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="TestRunnerService">
++    <option name="projectConfiguration" value="Nosetests" />
++    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..dc0669d
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++    <OptionsSetting value="true" id="Add" />
++    <OptionsSetting value="true" id="Remove" />
++    <OptionsSetting value="true" id="Checkout" />
++    <OptionsSetting value="true" id="Update" />
++    <OptionsSetting value="true" id="Status" />
++    <OptionsSetting value="true" id="Edit" />
++    <ConfirmationsSetting value="0" id="Add" />
++    <ConfirmationsSetting value="0" id="Remove" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.12 (C:\Anaconda2\python.exe)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..7632aa3
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/ECA.iml" filepath="$PROJECT_DIR$/.idea/ECA.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+index 0000000..5f61f4d
+--- /dev/null
++++ b/.idea/workspace.xml
+@@ -0,0 +1,392 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="ed259ff8-1e81-42c6-a798-a478bd18695c" name="Default" comment="" />
++    <ignored path="ECA.iws" />
++    <ignored path=".idea/workspace.xml" />
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="CreatePatchCommitExecutor">
++    <option name="PATCH_PATH" value="" />
++  </component>
++  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
++  <component name="FavoritesManager">
++    <favorites_list name="ECA" />
++  </component>
++  <component name="FileEditorManager">
++    <leaf>
++      <file leaf-file-name="ex01.py" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/lab 01 intro/ex01.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="190">
++              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="02_output_format.py" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/lab 01 intro/02_output_format.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="0">
++              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="03_test_sympy.py" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/lab 01 intro/03_test_sympy.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="19">
++              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/lab 01 intro/ex01.py" />
++        <option value="$PROJECT_DIR$/lab 01 intro/02_output_format.py" />
++        <option value="$PROJECT_DIR$/lab 01 intro/03_test_sympy.py" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectFrameBounds">
++    <option name="x" value="733" />
++    <option name="y" value="26" />
++    <option name="width" value="1010" />
++    <option name="height" value="860" />
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++    <OptionsSetting value="true" id="Add" />
++    <OptionsSetting value="true" id="Remove" />
++    <OptionsSetting value="true" id="Checkout" />
++    <OptionsSetting value="true" id="Update" />
++    <OptionsSetting value="true" id="Status" />
++    <OptionsSetting value="true" id="Edit" />
++    <ConfirmationsSetting value="0" id="Add" />
++    <ConfirmationsSetting value="0" id="Remove" />
++  </component>
++  <component name="ProjectView">
++    <navigator currentView="ProjectPane" proportions="" version="1">
++      <flattenPackages />
++      <showMembers />
++      <showModules />
++      <showLibraryContents />
++      <hideEmptyPackages />
++      <abbreviatePackageNames />
++      <autoscrollToSource />
++      <autoscrollFromSource />
++      <sortByType />
++      <manualOrder />
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="Scope" />
++      <pane id="Scratches" />
++      <pane id="ProjectPane">
++        <subPane>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="ECA" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="ECA" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="ECA" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="lab 01 intro" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++        </subPane>
++      </pane>
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
++    <property name="settings.editor.splitter.proportion" value="0.2" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++  </component>
++  <component name="RunManager" selected="Python.02_output_format">
++    <configuration default="false" name="ex01" type="PythonConfigurationType" factoryName="Python" temporary="true">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab 01 intro" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab 01 intro/ex01.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <method />
++    </configuration>
++    <configuration default="false" name="02_output_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab 01 intro" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab 01 intro/02_output_format.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="Tox" factoryName="Tox">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Attests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Doctests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Nosetests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="PARAMS" value="" />
++      <option name="USE_PARAM" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Unittests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="PUREUNITTEST" value="true" />
++      <option name="PARAMS" value="" />
++      <option name="USE_PARAM" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="py.test">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="ECA" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="testToRun" value="" />
++      <option name="keywords" value="" />
++      <option name="params" value="" />
++      <option name="USE_PARAM" value="false" />
++      <option name="USE_KEYWORD" value="false" />
++      <method />
++    </configuration>
++    <list size="2">
++      <item index="0" class="java.lang.String" itemvalue="Python.ex01" />
++      <item index="1" class="java.lang.String" itemvalue="Python.02_output_format" />
++    </list>
++    <recent_temporary>
++      <list size="2">
++        <item index="0" class="java.lang.String" itemvalue="Python.02_output_format" />
++        <item index="1" class="java.lang.String" itemvalue="Python.ex01" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="ShelveChangesManager" show_recycled="false">
++    <option name="remove_strategy" value="false" />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="ed259ff8-1e81-42c6-a798-a478bd18695c" name="Default" comment="" />
++      <created>1473142317891</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1473142317891</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="733" y="26" width="1010" height="860" extended-state="0" />
++    <editor active="true" />
++    <layout>
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19014084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++    </layout>
++  </component>
++  <component name="Vcs.Log.UiProperties">
++    <option name="RECENTLY_FILTERED_USER_GROUPS">
++      <collection />
++    </option>
++    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
++      <collection />
++    </option>
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager />
++    <watches-manager />
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/lab 01 intro/ex01.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="190">
++          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/lab 01 intro/02_output_format.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/lab 01 intro/03_test_sympy.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="19">
++          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++  </component>
++</project>
+\ No newline at end of file
+-- 
+2.9.3.windows.1
+
